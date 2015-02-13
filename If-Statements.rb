@@ -22,9 +22,8 @@ if check_surf == 1
   else
     puts "#{name}, enjoy the long rides through the cove!"
   end
-end
 
-if check_surf == 2
+elsif check_surf == 2
 	puts "Off to Xfit you go!"
 	puts "#{name}, Pick your WOD!"
 	puts "Fran"
@@ -38,9 +37,8 @@ if check_surf == 2
 	else
 		puts "I can't remember what #{wod_choice} is but I am sure its terrible."
 	end
-end
 
-if check_surf != 1 || check_surf != 2
+else check_surf != 1 || check_surf != 2
 	puts 'I wanted you to enter a "1" or "2"!'
 	puts "Please try again!"
 
